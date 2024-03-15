@@ -11,6 +11,8 @@ public class AplicaoOrientadaObjetos {
 		
 		Scanner tec = new Scanner(System.in);
 		
+		um.setNumero(0);
+		
 		System.out.println(um.getNumero() + um.getQuestao());
 		String nome = tec.nextLine();
 		
